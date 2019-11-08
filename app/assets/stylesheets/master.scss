@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
 @import "bootstrap";
 
 .clear {
@@ -35,8 +37,11 @@
 }
 
 .links a {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-style: transitional;
   color: black;
   font-size: 25px;
+  font-weight: bold;
   border-bottom: 1px solid #dfdfdf;
 }
 
@@ -48,3 +53,11 @@ hr {
   clear:both;
 }
 
+h1 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'quicksanddash';
+}
